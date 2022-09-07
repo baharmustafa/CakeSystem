@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.cake.com/ontologies/cake.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.cake.com/ontologies/cake.owl">
+    <Prefix name="" IRI="http://www.cake.com/ontologies/cake.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>To describe about different types of Cakes</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#AnniversaryOccasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BakingPowder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BirthdayOccasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Butter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ButterBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ButterCreamFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CakeBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CakeShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CandyFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarrotCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheeseCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheesyFlavouredCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChocalateCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChocolateBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChristmasOccasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CitrusFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClassicButterFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoffeeBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CreamCheeseFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CupCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DarkFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DateCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExpensiveCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlavouredFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrenchMeringueFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FruitCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GanacheFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlazeFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeartShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ItalianMeringueFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LayerCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LessExpensiveCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoafShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LoveCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MidSweetySpongeCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NamedCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Occasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PowderedSugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PromotionOccasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RibbonCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoundShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RoyalIcingFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RubyFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpongeCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SquareShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SweetnessValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SwissMeringueFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TastyCake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TriangleShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValuePartition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VanillaBase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingOccasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhippedCreamFrosting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WhiteFrosting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsCakeBaseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCakeBase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFrosting"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIngredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOccasion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSweetness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFrostingOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOccasionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isShapeOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasPriceValue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExampleCheeseCake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ExampleSponge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QualityCakeWithHighPrice"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#CheesyFlavouredCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFrosting"/>
+                <Class IRI="#CreamCheeseFrosting"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CupCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#hasFrosting"/>
+                <Class IRI="#Frosting"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ExpensiveCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasPriceValue"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LayerCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <ObjectMinCardinality cardinality="3">
+                <ObjectProperty IRI="#hasFrosting"/>
+                <Class IRI="#Frosting"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LessExpensiveCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <DataSomeValuesFrom>
+                <DataProperty IRI="#hasPriceValue"/>
+                <DatatypeRestriction>
+                    <Datatype abbreviatedIRI="xsd:integer"/>
+                    <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxExclusive">
+                        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000</Literal>
+                    </FacetRestriction>
+                </DatatypeRestriction>
+            </DataSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MidSweetySpongeCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasFrosting"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Frosting"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasSweetness"/>
+                        <Class IRI="#Medium"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SweetnessValuePartition"/>
+        <ObjectUnionOf>
+            <Class IRI="#High"/>
+            <Class IRI="#Medium"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TastyCake"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Cake"/>
+            <ObjectMinCardinality cardinality="2">
+                <ObjectProperty IRI="#hasFrosting"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AnniversaryOccasion"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BakingPowder"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BirthdayOccasion"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Butter"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ButterBase"/>
+        <Class IRI="#CakeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ButterCreamFrosting"/>
+        <Class IRI="#Frosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cake"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCakeBase"/>
+            <Class IRI="#CakeBase"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cake"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasPriceValue"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CakeBase"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CakeShape"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CandyFrosting"/>
+        <Class IRI="#GlazeFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrotCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrotCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#ButterCreamFrosting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrotCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#WhippedCreamFrosting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarrotCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <ObjectUnionOf>
+                <Class IRI="#ButterCreamFrosting"/>
+                <Class IRI="#WhippedCreamFrosting"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheeseCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheeseCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#CreamCheeseFrosting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheeseCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#CreamCheeseFrosting"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocalateCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocalateCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#GanacheFrosting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocalateCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#GanacheFrosting"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChocolateBase"/>
+        <Class IRI="#CakeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChristmasOccasion"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CitrusFrosting"/>
+        <Class IRI="#GlazeFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicButterFrosting"/>
+        <Class IRI="#ButterCreamFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClassicButterFrosting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweetness"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoffeeBase"/>
+        <Class IRI="#CakeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreamCheeseFrosting"/>
+        <Class IRI="#Frosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreamCheeseFrosting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweetness"/>
+            <Class IRI="#Medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DarkFrosting"/>
+        <Class IRI="#GanacheFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Date"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <Class IRI="#Nuts"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasIngredient"/>
+            <ObjectUnionOf>
+                <Class IRI="#Date"/>
+                <Class IRI="#Nuts"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlavouredFrosting"/>
+        <Class IRI="#GlazeFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flour"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchMeringueFrosting"/>
+        <Class IRI="#ButterCreamFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrenchMeringueFrosting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweetness"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frosting"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FruitCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FruitCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasShape"/>
+            <Class IRI="#LoafShape"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FruitCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasShape"/>
+            <Class IRI="#LoafShape"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GanacheFrosting"/>
+        <Class IRI="#Frosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlazeFrosting"/>
+        <Class IRI="#Frosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeartShape"/>
+        <Class IRI="#CakeShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High"/>
+        <Class IRI="#SweetnessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ingredient"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItalianMeringueFrosting"/>
+        <Class IRI="#ButterCreamFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ItalianMeringueFrosting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweetness"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoafShape"/>
+        <Class IRI="#CakeShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoveCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoveCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasShape"/>
+            <Class IRI="#HeartShape"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LoveCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasShape"/>
+            <Class IRI="#HeartShape"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medium"/>
+        <Class IRI="#SweetnessValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NamedCake"/>
+        <Class IRI="#Cake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuts"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Occasion"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PowderedSugar"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PromotionOccasion"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RibbonCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RibbonCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#ButterCreamFrosting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RibbonCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#ButterCreamFrosting"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoundShape"/>
+        <Class IRI="#CakeShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoyalIcingFrosting"/>
+        <Class IRI="#Frosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoyalIcingFrosting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweetness"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RubyFrosting"/>
+        <Class IRI="#GanacheFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleFrosting"/>
+        <Class IRI="#GlazeFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpongeCake"/>
+        <Class IRI="#NamedCake"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpongeCake"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#ClassicButterFrosting"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpongeCake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasFrosting"/>
+            <Class IRI="#ClassicButterFrosting"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SquareShape"/>
+        <Class IRI="#CakeShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sugar"/>
+        <Class IRI="#Ingredient"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SweetnessValuePartition"/>
+        <Class IRI="#ValuePartition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SwissMeringueFrosting"/>
+        <Class IRI="#ButterCreamFrosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SwissMeringueFrosting"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweetness"/>
+            <Class IRI="#High"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TriangleShape"/>
+        <Class IRI="#CakeShape"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValuePartition"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VanillaBase"/>
+        <Class IRI="#CakeBase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeddingOccasion"/>
+        <Class IRI="#Occasion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhippedCreamFrosting"/>
+        <Class IRI="#Frosting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WhiteFrosting"/>
+        <Class IRI="#GanacheFrosting"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AnniversaryOccasion"/>
+        <Class IRI="#BirthdayOccasion"/>
+        <Class IRI="#ChristmasOccasion"/>
+        <Class IRI="#PromotionOccasion"/>
+        <Class IRI="#WeddingOccasion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BakingPowder"/>
+        <Class IRI="#Butter"/>
+        <Class IRI="#Date"/>
+        <Class IRI="#Flour"/>
+        <Class IRI="#Nuts"/>
+        <Class IRI="#PowderedSugar"/>
+        <Class IRI="#Sugar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ButterBase"/>
+        <Class IRI="#ChocolateBase"/>
+        <Class IRI="#CoffeeBase"/>
+        <Class IRI="#VanillaBase"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ButterCreamFrosting"/>
+        <Class IRI="#CreamCheeseFrosting"/>
+        <Class IRI="#GanacheFrosting"/>
+        <Class IRI="#GlazeFrosting"/>
+        <Class IRI="#RoyalIcingFrosting"/>
+        <Class IRI="#WhippedCreamFrosting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cake"/>
+        <Class IRI="#CakeBase"/>
+        <Class IRI="#CakeShape"/>
+        <Class IRI="#Frosting"/>
+        <Class IRI="#Ingredient"/>
+        <Class IRI="#Occasion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CandyFrosting"/>
+        <Class IRI="#CitrusFrosting"/>
+        <Class IRI="#FlavouredFrosting"/>
+        <Class IRI="#SimpleFrosting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CarrotCake"/>
+        <Class IRI="#CheeseCake"/>
+        <Class IRI="#ChocalateCake"/>
+        <Class IRI="#DateCake"/>
+        <Class IRI="#FruitCake"/>
+        <Class IRI="#LoveCake"/>
+        <Class IRI="#RibbonCake"/>
+        <Class IRI="#SpongeCake"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ClassicButterFrosting"/>
+        <Class IRI="#FrenchMeringueFrosting"/>
+        <Class IRI="#ItalianMeringueFrosting"/>
+        <Class IRI="#SwissMeringueFrosting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DarkFrosting"/>
+        <Class IRI="#RubyFrosting"/>
+        <Class IRI="#WhiteFrosting"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HeartShape"/>
+        <Class IRI="#LoafShape"/>
+        <Class IRI="#RoundShape"/>
+        <Class IRI="#SquareShape"/>
+        <Class IRI="#TriangleShape"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#High"/>
+        <Class IRI="#Medium"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#CheeseCake"/>
+        <NamedIndividual IRI="#ExampleCheeseCake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpongeCake"/>
+        <NamedIndividual IRI="#ExampleSponge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ExpensiveCake"/>
+        <NamedIndividual IRI="#QualityCakeWithHighPrice"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPriceValue"/>
+        <NamedIndividual IRI="#ExampleCheeseCake"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPriceValue"/>
+        <NamedIndividual IRI="#ExampleSponge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">650</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasPriceValue"/>
+        <NamedIndividual IRI="#QualityCakeWithHighPrice"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1850</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#IsCakeBaseOf"/>
+        <ObjectProperty IRI="#hasCakeBase"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFrosting"/>
+        <ObjectProperty IRI="#isFrostingOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <ObjectProperty IRI="#isIngredientOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOccasion"/>
+        <ObjectProperty IRI="#isOccasionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasShape"/>
+        <ObjectProperty IRI="#isShapeOf"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasCakeBase"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasShape"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasSweetness"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsCakeBaseOf"/>
+        <Class IRI="#CakeBase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCakeBase"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFrosting"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOccasion"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShape"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isFrostingOf"/>
+        <Class IRI="#Frosting"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isOccasionOf"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isShapeOf"/>
+        <Class IRI="#CakeShape"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsCakeBaseOf"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCakeBase"/>
+        <Class IRI="#CakeBase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFrosting"/>
+        <Class IRI="#Frosting"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIngredient"/>
+        <Class IRI="#Ingredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOccasion"/>
+        <Class IRI="#Occasion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShape"/>
+        <Class IRI="#CakeShape"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSweetness"/>
+        <Class IRI="#SweetnessValuePartition"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isFrostingOf"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isIngredientOf"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isOccasionOf"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isShapeOf"/>
+        <Class IRI="#Cake"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasPriceValue"/>
+    </FunctionalDataProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
